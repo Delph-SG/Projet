@@ -12,6 +12,9 @@
         android:theme="@style/Theme.Projet"
         tools:targetApi="31">
         <activity
+            android:name=".ecran_connexion"
+            android:exported="false" />
+        <activity
             android:name=".Ecran_acceuil"
             android:exported="false" />
     </application>
