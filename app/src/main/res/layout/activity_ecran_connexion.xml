@@ -6,6 +6,20 @@
     android:layout_height="match_parent"
     tools:context=".ecran_connexion">
 
+    <Button
+        android:id="@+id/connex_option4"
+        android:layout_width="48dp"
+        android:layout_height="50dp"
+        android:layout_marginTop="3dp"
+        android:drawableTop="@android:drawable/ic_dialog_dialer"
+        android:hint="@string/b_conn"
+        app:layout_constraintBottom_toBottomOf="@+id/toolbar2"
+        app:layout_constraintEnd_toEndOf="@+id/toolbar2"
+        app:layout_constraintHorizontal_bias="0.95"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/toolbar2"
+        tools:ignore="HardcodedText,VisualLintOverlap,DuplicateSpeakableTextCheck" />
+
     <androidx.appcompat.widget.Toolbar
         android:id="@+id/toolbar2"
         android:layout_width="409dp"
@@ -16,17 +30,6 @@
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
-
-    <Button
-        android:id="@+id/option"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginEnd="16dp"
-        android:text="@string/b_conn"
-        app:layout_constraintBottom_toBottomOf="@+id/toolbar"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        tools:ignore="DuplicateSpeakableTextCheck,UnknownIdInLayout" />
 
     <LinearLayout
         android:id="@+id/linearLayout"
