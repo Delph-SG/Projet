@@ -1,3 +1,21 @@
 <resources>
     <string name="app_name">Projet</string>
+
+    <string name="b_conn">Connexion</string>
+    <string name="b_nvco">Nouveau Compte</string>
+    <string name="b_val">Valider</string>
+
+    <string name="t_log">Login</string>
+    <string name="t_mp">Mot de Passe</string>
+
+    <string name="t_nom">Nom</string>
+    <string name="t_prenom">Prénom</string>
+    <string name="t_tel">Téléphone</string>
+    <string name="t_email">Email</string>
+    <string name="t_anniv">Date de Naissance</string>
+    <string name="t_addr">Adresse</string>
+    <string name="t_cv">CV</string>
+
+    <string name="t_siret">N° SIRET</string>
+    <string name="t_liens">Liens utiles</string>
 </resources>
