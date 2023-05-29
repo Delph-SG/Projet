@@ -18,4 +18,11 @@
 
     <string name="t_siret">N° SIRET</string>
     <string name="t_liens">Liens utiles</string>
+
+    <string name="t_profil">Profil</string>
+    <string name="t_gesto">Gestion Offres</string>
+    <string name="t_gestc">Gestion Candidature</string>
+    <string name="t_abonn">Abonnement</string>
+    <string name="t_notif">Notification</string>
+
 </resources>

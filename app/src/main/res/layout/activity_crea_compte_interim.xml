@@ -5,10 +5,24 @@
     xmlns:app="http://schemas.android.com/apk/res-auto"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".crea_compte_entreprise">
+    tools:context=".crea_compte_interim">
+
+    <Button
+        android:id="@+id/connex_option2"
+        android:layout_width="48dp"
+        android:layout_height="50dp"
+        android:layout_marginBottom="6dp"
+        android:drawableTop="@android:drawable/ic_dialog_dialer"
+        android:hint="@string/b_conn"
+        app:layout_constraintBottom_toBottomOf="@+id/toolbar3"
+        app:layout_constraintEnd_toEndOf="@+id/toolbar3"
+        app:layout_constraintHorizontal_bias="0.95"
+        app:layout_constraintStart_toStartOf="@+id/toolbar3"
+        app:layout_constraintTop_toTopOf="@+id/toolbar3"
+        tools:ignore="HardcodedText" />
 
     <androidx.appcompat.widget.Toolbar
-        android:id="@+id/toolbar5"
+        android:id="@+id/toolbar3"
         android:layout_width="409dp"
         android:layout_height="wrap_content"
         android:background="?attr/colorPrimary"
@@ -19,21 +33,7 @@
         app:layout_constraintTop_toTopOf="parent" />
 
     <Button
-        android:id="@+id/connex_option3"
-        android:layout_width="48dp"
-        android:layout_height="50dp"
-        android:layout_marginTop="6dp"
-        android:drawableTop="@android:drawable/ic_dialog_dialer"
-        android:hint="@string/b_conn"
-        app:layout_constraintBottom_toBottomOf="@+id/toolbar5"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.95"
-        app:layout_constraintStart_toStartOf="@+id/toolbar5"
-        app:layout_constraintTop_toTopOf="@+id/toolbar5"
-        tools:ignore="HardcodedText" />
-
-    <Button
-        android:id="@+id/valider3"
+        android:id="@+id/valider"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:backgroundTint="@color/btn2"
@@ -64,9 +64,31 @@
                 android:layout_height="wrap_content"
                 android:ems="10"
                 android:hint="@string/t_nom"
-                android:importantForAutofill="no"
                 android:inputType="textPersonName"
                 android:minHeight="48dp"
+                android:importantForAutofill="no"
+                tools:ignore="VisualLintTextFieldSize" />
+
+            <EditText
+                android:id="@+id/edit_prenom"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:hint="@string/t_prenom"
+                android:inputType="textPersonName"
+                android:minHeight="48dp"
+                android:importantForAutofill="no"
+                tools:ignore="VisualLintTextFieldSize" />
+
+            <EditText
+                android:id="@+id/edit_anniv"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:hint="@string/t_anniv"
+                android:inputType="date"
+                android:minHeight="48dp"
+                android:importantForAutofill="no"
                 tools:ignore="VisualLintTextFieldSize" />
 
             <EditText
@@ -75,9 +97,9 @@
                 android:layout_height="wrap_content"
                 android:ems="10"
                 android:hint="@string/t_tel"
-                android:importantForAutofill="no"
                 android:inputType="phone"
                 android:minHeight="48dp"
+                android:importantForAutofill="no"
                 tools:ignore="VisualLintTextFieldSize" />
 
             <EditText
@@ -86,20 +108,9 @@
                 android:layout_height="wrap_content"
                 android:ems="10"
                 android:hint="@string/t_email"
-                android:importantForAutofill="no"
                 android:inputType="textEmailAddress"
                 android:minHeight="48dp"
-                tools:ignore="VisualLintTextFieldSize" />
-
-            <EditText
-                android:id="@+id/edit_siret"
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:ems="10"
-                android:hint="@string/t_siret"
-                android:inputType="textPersonName"
-                android:minHeight="48dp"
-                android:autofillHints=""
+                android:importantForAutofill="no"
                 tools:ignore="VisualLintTextFieldSize" />
 
             <EditText
@@ -108,18 +119,7 @@
                 android:layout_height="wrap_content"
                 android:ems="10"
                 android:hint="@string/t_addr"
-                android:importantForAutofill="no"
                 android:inputType="textPostalAddress"
-                android:minHeight="48dp"
-                tools:ignore="VisualLintTextFieldSize" />
-
-            <EditText
-                android:id="@+id/edit_lien"
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:ems="10"
-                android:hint="@string/t_liens"
-                android:inputType="textPersonName"
                 android:minHeight="48dp"
                 android:importantForAutofill="no"
                 tools:ignore="VisualLintTextFieldSize" />

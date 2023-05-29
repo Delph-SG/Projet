@@ -15,7 +15,7 @@
             android:name=".crea_compte_entreprise"
             android:exported="false" />
         <activity
-            android:name=".crea_compte"
+            android:name=".crea_compte_interim"
             android:exported="false" />
         <activity
             android:name=".ecran_connexion"

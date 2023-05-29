@@ -68,7 +68,9 @@
             android:id="@+id/buttonCo"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:text="@string/b_conn" />
+            android:backgroundTint="@color/btn2"
+            android:text="@string/b_conn"
+            android:textColor="#3949AB" />
     </LinearLayout>
 
     <Button
@@ -76,7 +78,9 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginTop="4dp"
+        android:backgroundTint="@color/btn3"
         android:text="@string/b_nvco"
+        android:textColor="#424242"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.9"
