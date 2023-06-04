@@ -33,7 +33,7 @@
         tools:ignore="HardcodedText" />
 
     <Button
-        android:id="@+id/valider3"
+        android:id="@+id/btn_val_entr"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:backgroundTint="@color/btn2"
